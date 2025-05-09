@@ -1,4 +1,4 @@
-# EcoX: A Waste Segregator using YOLOv5
+## ♻️EcoX: A Waste Segregator using YOLOv5
 
 ECOX is an AI-powered waste segregation system that utilizes the YOLOv5 object detection model to classify and segregate waste into categories such as **plastic**, **metal**, **paper**, and **glass**. This project aims to promote efficient waste management by enabling real-time intelligent sorting.
 
