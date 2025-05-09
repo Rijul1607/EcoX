@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOLOv5 Object Detection</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="project-name">ECOSORT</div>
+    </header>
+    <div class="container">
+        <h1>YOLOv5 Object Detection</h1>
+        {% if error %}
+        <p class="error">{{ error }}</p>
+        {% endif %}
+        <form action="/detect" method="post" enctype="multipart/form-data">
+            <label for="file">Choose an image:</label>
+            <input type="file" id="file" name="file" accept="image/*" required>
+            <button type="submit">Detect Objects</button>
+        </form>
+    </div>
+</body>
+</html>

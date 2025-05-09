@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap");
+body {
+    font-family: Poppins;
+    background-color: rgb(49, 200, 49);
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.project-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #56ab2f; /* Green accent color */
+    text-align: left;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background: rgb(123, 232, 158);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 16px;
+    color: #555;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+    padding: 8px;
+}
+
+button {
+    background-color: #00ff2a;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Poppins;
+}
+
+button:hover {
+    background-color: #078f3d;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.image-section img {
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f1f1f1;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: left;
+}
+
+a.button {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #00ff2a;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a.button:hover {
+    background-color: #078f3d;
+}
