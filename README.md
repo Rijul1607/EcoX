@@ -4,6 +4,10 @@ ECOX is an AI-powered waste segregation system that utilizes the YOLOv5 object d
 
 ---
 
+## Demo 
+
+https://github.com/user-attachments/assets/d5a1f132-ec8c-4f44-96bf-fefaf5146a6d
+
 ## 🚀 Features
 
 - 🔍 Real-time waste detection using YOLOv5
