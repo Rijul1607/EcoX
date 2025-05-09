@@ -38,3 +38,37 @@ EcoX/
 ## 🧪 Dataset
 
 You can get the dataset on this link https://universe.roboflow.com/material-identification/garbage-classification-3
+
+## 🧰 Tech Stack
+
+### 🔧 Backend
+- **Python** – Core programming language
+- **Flask** – Lightweight web framework to serve the app
+
+### 🧠 Machine Learning
+- **YOLOv5** – Real-time object detection model for waste classification
+- **PyTorch** – Deep learning framework used to train and run YOLOv5
+- **OpenCV** – For image processing and camera feed handling
+- **Pandas & NumPy** – Data handling and preprocessing
+
+### 🌐 Frontend
+- **HTML/CSS** – Basic user interface for the web app
+
+
+### 🗃️ Other Tools
+- **Jupyter Notebook** – For model training and experimentation
+- **LabelImg / Roboflow** – For annotating the training dataset
+- **Git & GitHub** – Version control and collaboration
+
+## 🛠️ Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Rijul1607/EcoX.git
+   cd EcoX
+   git clone https://github.com/ultralytics/yolov5.git
+   cd yolov5
+   pip install -r requirements.txt
+   ```
+
+
